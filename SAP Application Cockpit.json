@@ -1,13 +1,13 @@
 {
     "metadata": {
         "configurationVersions": [
-            3 
+            3
         ],
         "clusterVersion": "1.191.101.20200414-115902"
     },
-    "id": "b61cdf07-618f-4e0b-80b8-3477c6ce8f06",
+    "id": "70dcf798-755e-4a80-8c11-1319c96ef229",
     "dashboardMetadata": {
-        "name": "SAP Application Cockpit",
+        "name": "SAP Application Cockpit-cloned",
         "shared": true,
         "owner": "joseph.bologna@dynatrace.com",
         "sharingDetails": {
@@ -25,8 +25,8 @@
             "tileType": "CUSTOM_APPLICATION",
             "configured": true,
             "bounds": {
-                "top": 190,
-                "left": 456,
+                "top": 38,
+                "left": 760,
                 "width": 304,
                 "height": 152
             },
@@ -39,79 +39,7 @@
             ]
         },
         {
-            "name": "SAP App Right",
-            "tileType": "CUSTOM_APPLICATION",
-            "configured": true,
-            "bounds": {
-                "top": 342,
-                "left": 456,
-                "width": 304,
-                "height": 152
-            },
-            "tileFilter": {
-                "timeframe": null,
-                "managementZone": null
-            },
-            "assignedEntities": [
-                "CUSTOM_APPLICATION-F7AE924990BA42D3"
-            ]
-        },
-        {
-            "name": "Custom application",
-            "tileType": "CUSTOM_APPLICATION",
-            "configured": true,
-            "bounds": {
-                "top": 190,
-                "left": 760,
-                "width": 304,
-                "height": 152
-            },
-            "tileFilter": {
-                "timeframe": null,
-                "managementZone": null
-            },
-            "assignedEntities": [
-                "CUSTOM_APPLICATION-DEEE71661CD74992"
-            ]
-        },
-        {
-            "name": "Custom application",
-            "tileType": "CUSTOM_APPLICATION",
-            "configured": true,
-            "bounds": {
-                "top": 494,
-                "left": 760,
-                "width": 304,
-                "height": 152
-            },
-            "tileFilter": {
-                "timeframe": null,
-                "managementZone": null
-            },
-            "assignedEntities": [
-                "CUSTOM_APPLICATION-6536872E49E54980"
-            ]
-        },
-        {
-            "name": "Custom application",
-            "tileType": "CUSTOM_APPLICATION",
-            "configured": true,
-            "bounds": {
-                "top": 38,
-                "left": 760,
-                "width": 304,
-                "height": 152
-            },
-            "tileFilter": {
-                "timeframe": null,
-                "managementZone": null
-            },
-            "assignedEntities": [
-                "CUSTOM_APPLICATION-8ECF4B61DE924599"
-            ]
-        },
-        {
-            "name": "Custom application",
+            "name": "SAP APP Right",
             "tileType": "CUSTOM_APPLICATION",
             "configured": true,
             "bounds": {
@@ -125,43 +53,7 @@
                 "managementZone": null
             },
             "assignedEntities": [
-                "CUSTOM_APPLICATION-FBC8ABB392CD4048"
-            ]
-        },
-        {
-            "name": "Custom application",
-            "tileType": "CUSTOM_APPLICATION",
-            "configured": true,
-            "bounds": {
-                "top": 494,
-                "left": 456,
-                "width": 304,
-                "height": 152
-            },
-            "tileFilter": {
-                "timeframe": null,
-                "managementZone": null
-            },
-            "assignedEntities": [
-                "CUSTOM_APPLICATION-142E51CCE0224029"
-            ]
-        },
-        {
-            "name": "Custom application",
-            "tileType": "CUSTOM_APPLICATION",
-            "configured": true,
-            "bounds": {
-                "top": 342,
-                "left": 760,
-                "width": 304,
-                "height": 152
-            },
-            "tileFilter": {
-                "timeframe": null,
-                "managementZone": null
-            },
-            "assignedEntities": [
-                "CUSTOM_APPLICATION-0E6D8B4537CF4525"
+                "${InternalAppID}"
             ]
         },
         {
