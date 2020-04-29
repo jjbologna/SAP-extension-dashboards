@@ -1,7 +1,7 @@
 {
     "metadata": {
         "configurationVersions": [
-            3
+            3 
         ],
         "clusterVersion": "1.191.101.20200414-115902"
     },
@@ -21,7 +21,7 @@
     },
     "tiles": [
         {
-            "name": "Custom application",
+            "name": "SAP App Left",
             "tileType": "CUSTOM_APPLICATION",
             "configured": true,
             "bounds": {
@@ -35,11 +35,11 @@
                 "managementZone": null
             },
             "assignedEntities": [
-                "CUSTOM_APPLICATION-6F4302F0502F4181"
+                "${InternalAppID}"
             ]
         },
         {
-            "name": "Custom application",
+            "name": "SAP App Right",
             "tileType": "CUSTOM_APPLICATION",
             "configured": true,
             "bounds": {
