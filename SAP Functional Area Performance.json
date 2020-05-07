@@ -259,7 +259,7 @@
                 "managementZone": null
             },
             "customName": "Payroll",
-            "query": "select  avg(useraction.duration) as [Average Response Time] FROM useraction where useraction.name STARTSWITH \"Logistics Execution\"",
+            "query": "select  avg(useraction.duration) as [Average Response Time] FROM useraction where useraction.name STARTSWITH \"Payroll\"",
             "type": "SINGLE_VALUE",
             "timeFrameShift": "-2h"
         },
