@@ -131,14 +131,7 @@
                             "percentile": null,
                             "type": "LINE",
                             "entityType": "IOT",
-                            "dimensions": [
-                                {
-                                    "id": "0",
-                                    "name": "dt.entity.custom_device",
-                                    "values": [],
-                                    "entityDimension": true
-                                }
-                            ],
+                            "dimensions": [],
                             "sortAscending": false,
                             "sortColumn": true,
                             "aggregationRate": "TOTAL"
